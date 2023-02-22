@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.page {
+  background-color: rgb(37, 16, 50);
+  background-image: linear-gradient(to top right, rgb(37, 16, 50), black);
+  color: white;
+  height: 100vh;
+  padding-left: 4vw;
+}
+
+h1 {
+  font-size: 8vh;
+}
+
+p {
+  font-size: 4vh;
+}
