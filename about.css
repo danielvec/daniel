@@ -1,6 +1,15 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a {
+  color: white;
 }
 
 .page {
@@ -8,13 +17,41 @@
   background-image: linear-gradient(to top right, rgb(37, 16, 50), black);
   color: white;
   height: 100vh;
-  padding-left: 4vw;
+  overflow-y: scroll;
+  padding-left: min(4vw, 4vh);
+  padding-right: min(4vw, 4vh);
 }
 
 h1 {
-  font-size: 8vh;
+  font-size: min(8vh, 8vw);
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: solid rgb(171, 170, 170) 1px;
 }
 
 p {
   font-size: 4vh;
+}
+
+.header li {
+  list-style-type: none;
+  font-size: min(4vh, 4vw);
+  padding-left: min(2vw, 2vh);
+  padding-bottom: 5vh;
+  padding-right: min(2vw, 2vh);
+  padding-top: 8px;
+}
+
+.header li:hover {
+  transform: scale(1.03);
+}
+
+.header ul {
+  display: flex;
+  justify-content: end;
+}
+
+.body {
+  height: fit-content;
+  overflow-y: scroll;
 }
