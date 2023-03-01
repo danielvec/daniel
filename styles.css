@@ -41,6 +41,7 @@ img {
 .icons {
   display: flex;
   justify-content: space-around;
+  gap: 2vw;
   align-items: center;
   height: 25vh;
   width: 60vw;
