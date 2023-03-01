@@ -30,7 +30,7 @@ h1 {
 }
 
 p {
-  font-size: 4vh;
+  font-size: min(4vh, 4vw);
 }
 
 .header li {
